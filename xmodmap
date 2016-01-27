@@ -1,0 +1,29 @@
+! Super_R to Mode_switch
+keycode 134 = Mode_switch
+
+! use mode switch to get extra keys
+! home row on left hand -+_=/
+keycode  38 = a A minus         A aacute Aacute aacute Aacute a A aacute Aacute
+keycode  39 = r R plus          R dead_grave asciitilde dead_grave asciitilde r R dead_grave asciitilde
+keycode  40 = s S underscore    S ssharp asciitilde ssharp asciitilde s S ssharp asciitilde
+keycode  41 = t T equal         T dead_acute dead_doubleacute dead_acute dead_doubleacute t T dead_acute dead_doubleacute
+keycode  42 = d D slash         D dead_diaeresis asciitilde dead_diaeresis asciitilde d D dead_diaeresis asciitilde d D dead_diaeresis asciitilde
+
+! home row on right hand {()}
+keycode  43 = h H braceleft     H dead_caron asciitilde dead_caron
+keycode  44 = n N parenleft     N ntilde Ntilde ntilde
+keycode  45 = e E parenright    E eacute Eacute eacute
+keycode  46 = i I braceright    I iacute Iacute iacute
+
+! above home row on left hand @#~|\
+keycode  24 = q Q at            Q adiaeresis Adiaeresis adiaeresis Adiaeresis q Q adiaeresis Adiaeresis q Q adiaeresis Adiaeresis
+keycode  25 = w W numbersign    W aring Aring aring Aring w W aring Aring w W aring Aring
+keycode  26 = f F asciitilde    F atilde Atilde atilde Atilde f F atilde Atilde f F atilde Atilde
+keycode  27 = p P bar           P oslash Oslash oslash Oslash p P oslash Oslash p P oslash Oslash
+keycode  28 = g G backslash     G dead_ogonek asciitilde dead_ogonek asciitilde g G dead_ogonek asciitilde g G dead_ogonek asciitilde
+
+! above home row on right hand [<>]
+keycode  29 = j J bracketleft   J dstroke Dstroke dstroke Dstroke j J dstroke Dstroke j J dstroke Dstroke
+keycode  30 = l L less          L lstroke Lstroke lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
+keycode  31 = u U greater       U uacute Uacute uacute Uacute u U uacute Uacute u U uacute Uacute
+keycode  32 = y Y bracketright  Y udiaeresis Udiaeresis udiaeresis Udiaeresis y Y udiaeresis Udiaeresis y Y udiaeresis Udiaeresis
